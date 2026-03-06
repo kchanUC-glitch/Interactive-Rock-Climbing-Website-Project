@@ -1,0 +1,24 @@
+.welcome-header {
+    background: #855141;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh / 10;
+    padding-left: 10px;
+    font-family: 'Cabin Sketch';
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Cabin Sketch';
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 20px;
+    padding-right: 20px;
+}
