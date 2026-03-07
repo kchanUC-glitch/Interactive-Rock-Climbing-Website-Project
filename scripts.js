@@ -1,11 +1,10 @@
-const myButton = document.getElementById("submitButton")
-
-myButton.addEventListener("click", search) 
-
 // use AJAX to submit the form data via php without refreshing the page. Using Jquery.
+$(document).ready(function () {
+    $("#submitButton".on("click", function () {
+        search();
+    }))
+})
 function search() {
-    // link to php here
-    $("#submitButton").load("index.php", function () {
-        alert("Ajax performed!");
-    });
+    alert("Successfully linked!")
 }
+// use .load() to insert the results of ajax request; .load() was stripped of event handler.
