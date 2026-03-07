@@ -11,6 +11,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
 
+        <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+            crossorigin="anonymous"></script>
+
+        <script> $document.ready(function () {
+            $.getScript("../scripts.js")
+        }) </script>
+
         <title>Welcome!</title>
 
     </head>
@@ -28,8 +35,7 @@
 
             <form style = "display: flex;">
                 <input type = "text" placeholder = "Search for gear..." class = "form-control me-2">
-                <button type="submit">Search</button>
-                <script src = "../scripts.js"></script>
+                <button id = "submitButton" type="submit">Search</button>
             </form>
         </nav>
        
