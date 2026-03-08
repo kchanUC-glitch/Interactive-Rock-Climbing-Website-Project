@@ -19,7 +19,7 @@
     
 
         <?php include('navHeading.php'); ?>
-        <img id = "bannerImage" src = "https://pixabay.com/images/download/creativecanvasshop-rock-climbing-10159042_1920.png">
+        <img id = "bannerImage" src = "..\images\pageBanner.png">
 
     </body>
 
