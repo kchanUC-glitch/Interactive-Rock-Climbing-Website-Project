@@ -35,7 +35,7 @@
 
             <form style = "display: flex;">
                 <input type = "text" placeholder = "Search for gear..." class = "form-control me-2">
-                <button id = "submitButton" type="submit">Search</button>
+                <button id = "searchBtn" type="submit">Search</button>
             </form>
         </nav>
        

@@ -15,7 +15,8 @@
         <!-- Include the navigation header from navHeading.php, imports all relevant stylesheets and scripts -->
         <?php include('navHeading.php'); ?>
 
-        <p> Hello World! </p>
+        <img id = "bannerImage" src = "https://pixabay.com/images/download/creativecanvasshop-rock-climbing-10159042_1920.png">
+
 
     </body>
 

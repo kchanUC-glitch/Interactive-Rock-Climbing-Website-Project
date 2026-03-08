@@ -1,10 +1,13 @@
 // use AJAX to submit the form data via php without refreshing the page. Using Jquery.
 $(document).ready(function () {
-    $("#submitButton").on("click", function (e) {
+    $("#searchBtn").on("click", function (e) {
         e.preventDefault();
         search();
     })})
-function search() {
+function searchBtn() {
+
     alert("Successfully linked!")
 }
+// add another event handler for 
+
 // use .load() to insert the results of ajax request; .load() was stripped of event handler.
