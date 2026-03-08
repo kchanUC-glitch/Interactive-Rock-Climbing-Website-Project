@@ -28,14 +28,14 @@
             <h1 class = "logo"> Rock Climbing Gear </h1>
 
             <div class = "navbar">
-                <a href = "index.php">Home</a>
-                <a href = "about.php">About</a>
-                <a href = "contact.php">Contact</a>
+                <a class = "btn" style = "font-size: 30px" href = "index.php">Home</a>
+                <a class = "btn" style = "font-size: 30px" href = "about.php">About</a>
+                <a class = "btn" style = "font-size: 30px" href = "contact.php">Contact</a>
             </div>
 
-            <form style = "display: flex;">
+            <form id = "searchFunction">
                 <input type = "text" placeholder = "Search for gear..." class = "form-control me-2">
-                <button id = "searchBtn" type="submit">Search</button>
+                <button id = "searchBtn" class = "btn btn-success" type="submit">Search</button>
             </form>
         </nav>
        

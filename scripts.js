@@ -2,7 +2,7 @@
 $(document).ready(function () {
     $("#searchBtn").on("click", function (e) {
         e.preventDefault();
-        search();
+        searchBtn();
     })})
 function searchBtn() {
 
