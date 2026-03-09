@@ -34,7 +34,7 @@
             </div>
 
             <form id = "searchFunction">
-                <input type = "text" placeholder = "Search for gear..." class = "form-control me-2">
+                <input id = "searchVal" type = "text" placeholder = "Search for gear..." class = "form-control me-2">
                 <button id = "searchBtn" class = "btn btn-success" type="submit">Search</button>
             </form>
         </nav>
